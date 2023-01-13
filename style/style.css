@@ -166,3 +166,41 @@ justify-content: space-between;
 .clock span{
     color: #FF4A60;
 }
+
+
+
+
+@media screen and (max-width: 768px){
+    .leatest-course .top-course .card-grp {
+        flex-wrap: wrap;
+        /* align-items: center; */
+        justify-content: center;
+    }   
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+    .players-and-blogs, .leatest-course {
+        padding: 30px 20px;
+    }
+    ul {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 20px;
+    }
+    .navigation{
+        flex-direction: column;
+    }
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .top-blog .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .leatest-course .top-course .card-grp {
+        /* flex-direction: column; */
+        /* flex-wrap: wrap; */
+    }
+}
