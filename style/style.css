@@ -199,8 +199,4 @@ justify-content: space-between;
     .top-blog .blogs {
         grid-template-columns: repeat(1, 1fr);
     }
-    .leatest-course .top-course .card-grp {
-        /* flex-direction: column; */
-        /* flex-wrap: wrap; */
-    }
 }
