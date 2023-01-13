@@ -15,40 +15,39 @@ a {
   text-decoration: none;
 }
 ul {
-    display: flex;
-    align-items: center;
-    gap: 35px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
 }
-ul li{
-    list-style: none;
+ul li {
+  list-style: none;
 }
 /* header section */
-header{
-    background: var(--text-color);
-
+header {
+  background: var(--text-color);
 }
-.navigation{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 870px;
-    margin: 0 auto;
-    padding: 10px 0;
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 870px;
+  margin: 0 auto;
+  padding: 10px 0;
 }
-.navigation .logo{
-    display: flex;
-    align-items: center;
+.navigation .logo {
+  display: flex;
+  align-items: center;
 }
-.logo h2{
-    color: #fff;
-    margin-left: 15px;
+.logo h2 {
+  color: #fff;
+  margin-left: 15px;
 }
-.navigation .logo img{
-    width: 40px;
+.navigation .logo img {
+  width: 40px;
 }
-nav ul li a{
-    color: #fff;
-    font-size: 16px;
+nav ul li a {
+  color: #fff;
+  font-size: 16px;
 }
 /* players and blogs */
 .players-and-blogs,
@@ -117,86 +116,81 @@ nav ul li a{
 }
 
 /* -leatest-course */
-.leatest-course .top-course .card-grp{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* gap: 23px; */
+.leatest-course .top-course .card-grp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 23px; */
 }
-.leatest-course .top-course .cards .card{
-    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
-    padding: 15px;
-    border-radius: 5px;
+.leatest-course .top-course .cards .card {
+  box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+  padding: 15px;
+  border-radius: 5px;
 }
 
 .leatest-course .top-course .cards .card img {
   width: 224px;
   height: 104px;
 }
-.top-course .cards .card .card-info a{
-    font-size: 14.69px;
-    color: #ED6B4F;
+.top-course .cards .card .card-info a {
+  font-size: 14.69px;
+  color: #ed6b4f;
 }
-.rating{
-display: flex;
-align-items: center;
-justify-content: space-between;
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.fa-star.filled{
-    color: #FFC014;
+.fa-star.filled {
+  color: #ffc014;
 }
-.fa-star{
-    font-size: 12px;
+.fa-star {
+  font-size: 12px;
 }
-.fa-star.empty{
-    color: #AEAEAE;
+.fa-star.empty {
+  color: #aeaeae;
 }
-.rating span{
-    font-size: 14.69px;
-    color: #AEAEAE;
+.rating span {
+  font-size: 14.69px;
+  color: #aeaeae;
 }
-.clock{
-    background: #FFE4E8;
-    border-radius: 14.6913px;
-    padding: 4px 7px;
+.clock {
+  background: #ffe4e8;
+  border-radius: 14.6913px;
+  padding: 4px 7px;
 }
-.clock i{
-    color: #FF4A60;
+.clock i {
+  color: #ff4a60;
 }
-.clock span{
-    color: #FF4A60;
-}
-
-
-
-
-@media screen and (max-width: 768px){
-    .leatest-course .top-course .card-grp {
-        flex-wrap: wrap;
-        /* align-items: center; */
-        justify-content: center;
-    }   
+.clock span {
+  color: #ff4a60;
 }
 
-
+@media screen and (max-width: 768px) {
+  .leatest-course .top-course .card-grp {
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+  }
+}
 
 @media screen and (max-width: 576px) {
-
-    .players-and-blogs, .leatest-course {
-        padding: 30px 20px;
-    }
-    ul {
-        flex-direction: column;
-        gap: 15px;
-        margin-top: 20px;
-    }
-    .navigation{
-        flex-direction: column;
-    }
-    .players {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .top-blog .blogs {
-        grid-template-columns: repeat(1, 1fr);
-    }
+  .players-and-blogs,
+  .leatest-course {
+    padding: 30px 20px;
+  }
+  ul {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  .navigation {
+    flex-direction: column;
+  }
+  .players {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .top-blog .blogs {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
